@@ -11,7 +11,7 @@ app.use(express.static(__dirname + '/images'))
 
 /*
 app.get("/getCall", function(req,res){ 
-console.log("GET Method caled");
+console.log("GET Method called");
 console.log(__dirname);
 
 res.send("<h2>Welcome to Node JS express app</h2>"+appEnv.url+appEnv.port+port+process.env.LOGNAME);
